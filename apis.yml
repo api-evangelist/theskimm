@@ -1,7 +1,26 @@
 aid: theskimm
-name: TheSkimm *
-description: 'TheSkimm * is a company surfaced as a portfolio company of gv and added to the API Evangelist
-  network as a stub for enrichment. Sector: consumer. This profile is a lead awaiting the enrichment pipeline.'
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/theskimm.png
+name: TheSkimm
+description: 'TheSkimm is a digital media company founded in 2012 that curates news, lifestyle,
+  money, career, and wellness content for a primarily female audience, delivered through
+  email newsletters (the flagship Daily Skimm, plus Well Played, Skimm Well + Good, and
+  Skimm Shopping), a mobile app, podcasts, and shopping guides. It is now part of Everyday
+  Health, Inc., a Ziff Davis company. TheSkimm operates as a consumer media and audience
+  business rather than an API provider: it publishes no public developer portal, API
+  documentation, SDKs, or machine-readable API specifications. This API Evangelist profile
+  was seeded as a portfolio lead of GV (Google Ventures) and enriched with the company''s
+  public identity, link properties, and domain-security posture.'
 url: https://raw.githubusercontent.com/api-evangelist/theskimm/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -11,16 +30,36 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-21'
 tags:
 - Company
 - Consumer
-apis: []
+- Media
+- Newsletter
+- Email
+- Content
+- Publishing
+- Women
+- Wellness
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+apis: []
 common:
 - type: Website
-  url: http://theskimm.com
+  url: https://www.theskimm.com
+- type: Support
+  url: https://theskimm-support.zendesk.com
+- type: TermsOfService
+  url: https://www.theskimm.com/general/terms-of-use
+- type: PrivacyPolicy
+  url: https://www.theskimm.com/privacy-notice
+- type: DomainSecurity
+  url: security/theskimm-domain-security.yml
+x-enrichment:
+  date: '2026-07-21'
+  status: minimal
+  artifacts_added: 1
+  pass: local-v1
