@@ -1,0 +1,21 @@
+{
+  "repo": "theskimm",
+  "feeds": [
+    {
+      "source": "https://www.theskimm.com/press",
+      "feed_url": "https://www.theskimm.com/press",
+      "title": "",
+      "saved": 0,
+      "method": "none"
+    },
+    {
+      "source": "https://www.theskimm.com/rss/feed.xml",
+      "feed_url": "https://www.theskimm.com/rss/feed.xml",
+      "title": "",
+      "saved": 9,
+      "method": "feed"
+    }
+  ],
+  "post_count": 9,
+  "fetched": "2026-10-10T13:15:00Z"
+}
